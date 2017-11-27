@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Flatpak portal test
+Exec=portal-test-kde
+Icon=flatpak
+Type=Application
+InitialPreference=5
+GenericName=Simple application to test flatpak portals
+Categories=Qt;KDE;System;
+Keywords=flatpak;kde;portals

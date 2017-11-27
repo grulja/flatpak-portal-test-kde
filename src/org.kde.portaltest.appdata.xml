@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+    <id>org.kde.portaltest.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0</project_license>
+    <name>Flatpak portal test</name>
+    <summary>Simple application to test flatpak portals</summary>
+    <description>
+       <p>Simple application to test flatpak portals.</p>
+    </description>
+    <categories>
+        <category>System</category>
+    </categories>
+    <provides>
+        <binary>portal-test-kde</binary>
+    </provides>
+</component>

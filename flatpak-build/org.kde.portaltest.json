@@ -1,5 +1,5 @@
 {
-    "app-id": "org.kde.portal-test-kde",
+    "app-id": "org.kde.portaltest",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.9",
     "sdk": "org.kde.Sdk",
@@ -11,7 +11,7 @@
         "--filesystem=host",
         "--device=dri",
         "--env=QT_LOGGING_RULES=qt.qpa.qflatpakplatform*.debug=true",
-        "--env=QT_QPA_PLATFORM=flatpak",
+        "--env=QT_QPA_PLATFORM_THEME=flatpak",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "build-options" : {
