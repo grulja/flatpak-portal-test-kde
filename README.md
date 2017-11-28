@@ -13,6 +13,6 @@ To use this test, use the build script in flatpak-build/ to produce a flatpak of
 
 and run it with
 
-    flatpak run org.kde.portal-test-kde
+    flatpak run org.kde.portaltest
 
 The test expects the xdg-desktop-portal service (and a backend, such as xdg-desktop-portal-kde) to be available on the session bus.

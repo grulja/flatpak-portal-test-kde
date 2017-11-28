@@ -10,7 +10,6 @@
         "--socket=wayland",
         "--device=dri",
         "--env=QT_LOGGING_RULES=qt.qpa.qflatpakplatform*.debug=true",
-        "--env=QT_QPA_PLATFORM_THEME=flatpak",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "build-options" : {
