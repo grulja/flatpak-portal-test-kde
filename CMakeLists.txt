@@ -14,6 +14,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 
 include(ECMPackageConfigHelpers)
 include(ECMOptionalAddSubdirectory)
+include(ECMInstallIcons)
 include(FeatureSummary)
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS

@@ -8,7 +8,6 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
-        "--filesystem=host",
         "--device=dri",
         "--env=QT_LOGGING_RULES=qt.qpa.qflatpakplatform*.debug=true",
         "--env=QT_QPA_PLATFORM_THEME=flatpak",

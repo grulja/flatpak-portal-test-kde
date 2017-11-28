@@ -18,6 +18,9 @@ target_link_libraries(portal-test-kde
     KF5::Notifications
 )
 
+
 install(TARGETS portal-test-kde DESTINATION ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 install(PROGRAMS org.kde.portaltest.desktop DESTINATION ${XDG_APPS_INSTALL_DIR} )
 install(FILES org.kde.portaltest.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+
+add_subdirectory(icons)
